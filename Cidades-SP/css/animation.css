@@ -1,0 +1,88 @@
+.galerysp{
+    opacity: 0.8;
+    margin: 0px 180px 0px 180px;
+    width: 980px;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+    /* border: 5px solid; */
+}
+.galerysp .fotossp{
+    width: 400%;
+    animation-name:animacaoEstado;
+    animation-duration:10s;
+    animation-iteration-count: infinite;
+}
+.galerysp .fotossp img{
+    width:24.9%
+}
+@keyframes animacaoEstado {
+    0%{margin-left: 0;}    
+    25%{margin-left: 0;}
+    30%{margin-left: -100%;}
+    50%{margin-left: -100%;}
+    55%{margin-left: -200%;}
+    75%{margin-left: -200%;}
+    80%{margin-left: -300%;}
+    100%{margin-left: -300%;}
+}
+
+.maindireita{
+    margin: 0px 0px 0px -50px;  
+}
+.galerydireita{
+    opacity: 0.8;
+    margin: 0px 200px 0px 180px;
+    width: 400px;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+    border-radius: 8%;
+    z-index: -1;
+    
+}
+.galerydireita .fotosesquerda{
+    width: 400%;
+    animation-name:animacaoosasco;
+    animation-duration:10s;
+    animation-iteration-count: infinite;
+}
+.galerydireita .fotosesquerda img{
+    width:24.9%
+}
+
+@keyframes animacaoosasco {
+    0%{margin-left: 0;}    
+    30%{margin-left: 0;}
+    35%{margin-left: -100%;}
+    65%{margin-left: -100%;}
+    70%{margin-left: -200%;}
+    100%{margin-left: -200%;}
+    /* 80%{margin-left: -300%;}
+    100%{margin-left: -300%;} */
+}
+.mainesquerda{
+    margin: 0px 0px 0px 100px;  
+
+}
+
+.galeryesquerda{
+    opacity: 0.8;
+    margin: 0px 0px 0px -110px;
+    width: 400px;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+    border-radius: 8%;
+    z-index: -1;
+    
+}
+.galeryesquerda .fotosdireita{
+    width: 400%;
+    animation-name:animacaoosasco;
+    animation-duration:10s;
+    animation-iteration-count: infinite;
+}
+.galeryesquerda .fotosdireita img{
+    width:24.9%
+}

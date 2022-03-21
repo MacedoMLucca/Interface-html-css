@@ -1,0 +1,390 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,300;1,200&family=Merriweather:wght@700&family=Mukta:wght@300&family=Sansita+Swashed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@400;500;600;700&display=swap');
+
+:root{
+    --subtitulo: 'Fira Sans', sans-serif;
+    --paragrafo:'Mukta', sans-serif;
+    --titulo:'Sansita Swashed', cursive;
+    --btnSMhover: rgb(49, 52, 240);
+    --btnSM: rgb(184, 184, 184);
+    --menu:rgb(59, 112, 209);
+    --cinza:#c0c0c0;
+    --branco:#fff;
+    --Preto:#000;
+    --azul:#00f;
+    /* cor por cidade */
+    --sp:rgb(138, 41, 41);
+    --barueri:rgb(7, 167, 28);
+    --guarulhos:rgb(68, 92, 228);
+    --campinas:rgb(3, 95, 26);
+    --sorocaba:rgb(224, 96, 10);
+    --santos:rgb(170, 170, 170);
+    --saovicente:rgb(8, 82, 131);
+    --santoandre:rgb(33, 136, 33);
+    --sbc:rgb(192, 66, 79);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    text-decoration: none;
+}
+body{
+    font-size: 100%;
+}
+.imgcidade{
+    height: 300px;
+    border-radius: 8%;
+}
+h1{
+    color:var(--branco);
+    font-size: 60px;
+    font-family: var(--titulo);
+}
+p{
+    font-family: var(--paragrafo);
+    font-family: 700;
+    text-align: justify;
+}
+h2{
+    text-align: center;
+    margin:15px 0px 15px 0px;
+    font-size: 50px;
+    font-weight: 500;
+    font-family: var(--subtitulo);
+}
+hr{
+    margin: 5px 200px 5px 200px;
+}
+table{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+}
+th{
+    border: 1px solid;
+    text-align: center;
+    padding: 6px;
+    background-color: #c0c0c0;
+}
+td{
+    border: 1px solid;
+    padding: 6px;
+}
+.prefeito{
+    background-color: chocolate;
+}
+/* TOP MENU */
+  .topmenu a {
+    color:var(--branco);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 15px;
+} 
+ .topmenu a:hover {
+    color: rgb(0, 0, 0);
+    font-weight: 200;
+    font-size: 25px;
+} 
+.HistSaiba{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    gap: 15px;
+    text-align: justify;
+    margin-left: -150px;
+}
+.HistSaiba2{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    gap: 15px;
+    text-align: justify;
+    margin-left: 150px;
+}
+.btnSME{
+    width: 120px;
+    height: 35px;
+    border-radius:8%;
+    border-style: none;
+    background-color:var(--btnSMhover);
+    color: var(--branco);
+    
+}
+.btnSMD{
+    width: 120px;
+    height: 35px;
+    border-radius:10%;
+    margin-left: 375px;
+    border-style: none;
+    background-color:var(--btnSMhover);
+    color: var(--branco);
+}
+button:hover{
+    background-color:var(--btnSM);
+    color:black;
+    border-color: black;
+}
+.imagemDeFundo{
+    width: 1130px;
+    height: 400px;
+    margin: 0px 100px 0px 100px;
+}
+.TituloPrincipal{
+    background-color:var(--menu);
+    border-width: 5px;
+    border-color: black;
+    border-radius: 81px;
+
+    height: 95px;
+    text-align: center;
+}
+.cidadeinfo{
+    display: flex;
+    flex-direction: row;
+    margin: 0px 200px 25px 70px;
+    gap:50px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    /* border:solid #333; */
+}
+.cidadeinfo2{
+    display: flex;
+    flex-direction: row;
+    margin: 0px 200px 25px 70px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+.Descricao{
+    display: flex;
+    flex-direction: column;
+    margin: 25px 200px 25px 200px;
+    gap: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+.footer{
+    background-color: #c0c0c0;
+    height: 90px;
+    padding-top: 30px;
+    text-decoration: none;
+    padding-left:280px;
+}
+#bottommenu a{
+    color:black;
+    text-align: center;
+    font-size: 15px;
+}
+#bottommenu a:hover{
+    color:#fff;
+    font-size: 18px;
+}
+#ocriador{
+    display: flex;
+    justify-content: center;
+    opacity: 0.5;
+}
+
+/* OSASCO */
+/* OSASCO */
+/* OSASCO */
+#TituloPrincipalOz{
+    background-color:var(--Preto);
+    border-width: 5px;
+    border-color:var(--Preto);
+    border-radius: 81px;
+    height: 95px;;
+    text-align: center;
+}
+#topmenuosasco a{
+    color: var(--branco);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 15px;
+}
+#topmenuosasco a:hover{
+    color:var(--azul);
+    font-weight: 200;
+    font-size: 25px;
+}
+.subtitulopg{
+    border-bottom: 1px solid #000;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: var(--subtitulo);
+}
+#descrituri{
+    display: flex;
+    flex-direction: row;
+    
+    margin: 25px 200px 25px 200px;
+    gap: 30px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+#fototuri{
+    border: 1px solid #000;
+    width:350px;
+    height: 250px;
+}
+#textoturi{
+    /* border: 1px solid #000; */
+    width:550px;
+    height: 250px;
+    padding: 25px 25px;
+    
+}
+#descripre{
+    display: flex;
+    flex-direction: row;
+    margin: 25px 0px 25px 300px;
+    gap: 30px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+#fotopre{
+    border: 1px solid #000;
+    width:200px;
+    height: 250px;
+}
+#textopre{
+    /* border: 1px solid #000; */
+    width:550px;
+    height: 250px;
+    padding: 40px 25px;
+}
+.ponto{
+    background-color: #e6e6e6;
+}
+/* FIM OSASCO */
+/* FIM OSASCO */
+/* FIM OSASCO */
+/* ---------------------- */
+/* SP capital */
+/* SP capital */
+/* SP capital */
+#TituloPrincipalSp{
+    background-color:var(--sp);
+    border-width: 5px;
+    border-color:var(--Preto);
+    border-radius: 81px;
+    height: 95px;
+    text-align: center;
+}
+/* Fim SP capital */
+/* Fim SP capital */
+/* Fim SP capital */
+/* ------------------------ */
+/* Barueri */
+/* Barueri */
+/* Barueri */
+#TituloPrincipalBarueri{
+    background-color:var(--barueri);
+    border-width: 5px;
+    border-radius: 81px;
+    height: 95px;
+    text-align: center;
+}
+.tabela{
+    margin-top:-20px;
+}
+/* Fim Barueri */
+/* Fim Barueri */
+/* Fim Barueri */
+/* -------------------------- */
+/* guarulhos */
+/* guarulhos */
+/* guarulhos */
+#TituloPrincipalguarulhos{
+    background-color:var(--guarulhos);
+    border-width: 5px;
+    border-radius: 81px;
+    height: 95px;
+    text-align: center;
+}
+/* Fim guarulhos */
+/* Fim guarulhos */
+/* Fim guarulhos */
+/* ----------------------- */
+/* campinas */
+/* campinas */
+/* campinas */
+#TituloPrincipalcampinas{
+    background-color:var(--campinas);
+    border-width: 5px;
+    border-radius: 81px;
+    height: 95px;
+    text-align: center;
+}
+/* Fim campinas */
+/* Fim campinas */
+/* Fim campinas */
+/* ----------------------- */
+/* sorocaba */
+/* sorocaba */
+/* sorocaba */
+#TituloPrincipalsorocaba{
+    background-color:var(--sorocaba);
+    border-width: 5px;
+    border-radius: 81px;
+    height: 95px;
+    text-align: center;
+}
+/* Fim sorocaba */
+/* Fim sorocaba */
+/* Fim sorocaba */
+/* ----------------------- */
+/* santos */
+/* santos */
+/* santos */
+#TituloPrincipalsantos{
+    background-color:var(--santos);
+    border-radius: 81px;
+    height: 95px;
+    text-align: center;
+}
+/* Fim santos */
+/* Fim santos */
+/* Fim santos */
+/* ----------------------- */
+/* saovicente */
+/* saovicente */
+/* saovicente */
+#TituloPrincipalsaovicente{
+    background-color:var(--saovicente);
+    border-radius: 81px;
+    height: 95px;
+    text-align: center;
+}
+/* Fim saovicente */
+/* Fim saovicente */
+/* Fim saovicente */
+/* ----------------------- */
+/* santoandre */
+/* santoandre */
+/* santoandre */
+#TituloPrincipalsantoandre{
+    background-color:var(--santoandre);
+    border-radius: 81px;
+    height: 95px;
+    text-align: center;
+}
+/* Fim santoandre */
+/* Fim santoandre */
+/* Fim santoandre */
+/* ----------------------- */
+/* sbc */
+/* sbc */
+/* sbc */
+#TituloPrincipalsbc{
+    background-color:var(--sbc);
+    border-radius: 81px;
+    height: 95px;
+    text-align: center;
+}
+/* Fim sbc */
+/* Fim sbc */
+/* Fim sbc */
