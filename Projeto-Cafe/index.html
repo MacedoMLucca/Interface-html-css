@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- Meta Tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Lucca Macedo">
+    <meta name="keywords" content="Cidades , São Paulo, Bandeira , Historia">
+    <meta name="description" content="Site que contem as informaçoes sobre 10 cidades do estado de São Paulo">
+    <!-- Titulo -->
+    <title>Complete responsive coffee shop website design</title>
+    <!-- font awensome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- link auxiliares para estilização da pagina -->
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- header start -->
+    <header class="header">
+
+        <a href="#" class="logo">
+            <img src="img/logo.png" alt="">
+        </a>
+
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#about">sobre</a>
+            <a href="#menu">menu</a>
+            <a href="#products">produtos</a>
+            <a href="#review">Comentários</a>
+            <a href="#contact">contato</a>
+            <a href="#blogs">blog</a>
+        </nav>
+        <div class="icons">
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-shopping-cart" id="cart-btn"></div>
+            <div class="fas fa-bars" id="menu-btn"></div>
+        </div>
+
+        <div class="search-form">
+            <input type="search" id="search-box" placeholder="pesquise aqui...">
+            <label for="search-box" class="fas fa-search" ></label>
+        </div>
+
+        <div class="cart-items-container">
+            <div class="cart-item">
+                <span class="fas fa-times"></span>
+                <img src="img/cart-item-1.png" alt="">
+                <div class="content">
+                    <h3>Item 01</h3>
+                    <div class="price">$15.99/-</div>
+                </div>
+            </div>
+            <div class="cart-item">
+                <span class="fas fa-times"></span>
+                <img src="img/cart-item-2.png" alt="">
+                <div class="content">
+                    <h3>Item 02</h3>
+                    <div class="price">$15.99/-</div>
+                </div>
+            </div>
+            <div class="cart-item">
+                <span class="fas fa-times"></span>
+                <img src="img/cart-item-3.png" alt="">
+                <div class="content">
+                    <h3>Item 03</h3>
+                    <div class="price">$15.99/-</div>
+                </div>
+            </div>
+            <div class="cart-item">
+                <span class="fas fa-times"></span>
+                <img src="img/cart-item-4.png" alt="">
+                <div class="content">
+                    <h3>Item 04</h3>
+                    <div class="price">$15.99/-</div>
+                </div>
+            </div>
+            <a href="#" class="btn">Finalizar compra</a>
+        </div>
+    </header>
+    <!-- header end -->
+    <!-- home section start -->
+    <section class="home" id="home">
+        <div class="content">
+            <h3>Café fresco pela manhã</h3>
+            <p>Novos aromas com a sua nova cafeteria, do nosso coração para o seu lar, aproveite os novos sabores pela manhã</p>
+            <a href="#" class="btn">Quero conhecer</a>
+        </div>
+    </section>
+    <!-- home section end -->
+    <!-- about section start -->
+    <section class="about" id="about">
+
+        <h1 class="heading"> <span>Sobre</span> nós </h1>
+
+        <div class="row">
+            <div class="image">
+                <img src="img/about-img.jpeg" alt="">
+            </div>
+
+            <div class="content">
+                <h3>O que torna nosso café especial?</h3>
+                <p>Primeiro, o cuidado na produção dos grão nas melhores fazendas cafeeiras do pais, passando por rigorossos processos de avalição grão a grão de nossos especialistas.</p>
+                <p>Segundo, você como nosso cliente, pois para nós você vem em primeiro lugar,das escolhas das fazendas ate a produçãõ dos aromas para ser entregue em sua residência</p>
+                <a href="#" class="btn">Leia Mais</a>
+            </div>
+        </div>
+
+    </section>
+    <!-- about section ends -->
+
+    <!-- menu section starts -->
+    <section class="menu" id="menu">
+
+        <h1 class="heading"> nosso <span>menu</span> </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="img/menu-1.png" alt="">
+                <h3>Café Tradicional</h3>
+                <div class="price">$15.99 <span>20.99</span></div>
+                <a href="#" class="btn"> add ao carrinho</a>
+            </div>
+            <div class="box">
+                <img src="img/menu-2.png" alt="">
+                <h3>Café JAVA</h3>
+                <div class="price">$15.99 <span>20.99</span></div>
+                <a href="#" class="btn"> add ao carrinho</a>
+            </div>
+            <div class="box">
+                <img src="img/menu-3.png" alt="">
+                <h3>Café ao Leite</h3>
+                <div class="price">$15.99 <span>20.99</span></div>
+                <a href="#" class="btn"> add ao carrinho</a>
+            </div>
+            <div class="box">
+                <img src="img/menu-4.png" alt="">
+                <h3>Café tinta de impressora</h3>
+                <div class="price">$15.99 <span>20.99</span></div>
+                <a href="#" class="btn"> add ao carrinho</a>
+            </div>
+            <div class="box">
+                <img src="img/menu-5.png" alt="">
+                <h3>Café Oléo de motor</h3>
+                <div class="price">$15.99 <span>20.99</span></div>
+                <a href="#" class="btn"> add ao carrinho</a>
+            </div>
+            <div class="box">
+                <img src="img/menu-6.png" alt="">
+                <h3>Café do OBAMA</h3>
+                <div class="price">$15.99 <span>20.99</span></div>
+                <a href="#" class="btn"> add ao carrinho</a>
+            </div>
+
+        </div>
+
+    </section>
+    <!-- menu section ends -->
+
+    <section class="products" id="products">
+        <h1 class="heading">outros <span>produtos</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="img/product-1.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Café da Nicaragua</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">
+                        $15.99 <span>$20.99</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="img/product-2.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Café Colombiano</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">
+                        $15.99 <span>$20.99</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="img/product-3.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Café Peruano</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">
+                        $15.99 <span>$20.99</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- rewiew section starts -->
+
+    <section class="review" id="review">
+
+        <h1 class="heading"><span>Comentários</span> de clientes</h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="img/quote-img.png" alt="" class="quote">
+                <p>Um dos dos melhores café que ja tomei, de fato uma grande experiencia poder tomar esse café tanto em casa quanto aqui na cafeteria, que tee proporciona um dos melhores ambientes para relaxar, trabalhar , estudar ou ate mesmo tomar o se café tranquilamente </p>
+                <img src="img/pic-1.png" alt="" class="user">
+                <h3>Brenin do café</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="img/quote-img.png" alt="" class="quote">
+                <p>Um café de fato <strong>CAMISA 10</strong>, um dos melhores que ja tomei, principalmente quando falamos de três sabores em especifico:"Café Tinta De Impressora","Café Oléo De Motor", "Café Do OBAMA". São sabores maravilhosos e relaxam os climas Hostis por ai!  </p>
+              
+                <img src="img/jaja.jpg" alt="" class="user">
+                <h3>Jailson Costa dos Santos</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="img/quote-img.png" alt="" class="quote">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis incidunt perspiciatis consequuntur fugit perferendis error delectus laudantium molestiae distinctio, laboriosam, magnam animi aut repellat minima minus dignissimos impedit, nam iure?</p>
+                <img src="img/pic-2.png" alt="" class="user">
+                <h3>Marina Deo</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- rewiew section end -->
+
+<!-- Contact section starts -->
+
+    <section class="contact" id="contact">
+        <h1 class="heading"> fale<span> Conosco</span></h1>
+        <div class="row">
+            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d117107.34685003886!2d-46.954432436693466!3d-23.474723320896967!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cf022042813ff7%3A0x2726201a2b11ee1d!2sStarbucks!5e0!3m2!1spt-BR!2sbr!4v1647303247267!5m2!1spt-BR!2sbr"  style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <!-- width="600" height="450" -->
+            <form action="" method="post">
+                <h3>ENTRAR EM CONTATO</h3>
+                <div class="inputBox">
+                    <span class="fas fa-user"></span>
+                    <input type="text" placeholder="nome">
+                </div>
+                <div class="inputBox">
+                    <span class="fas fa-envelope"></span>
+                    <input type="email" placeholder="email">
+                </div>
+                <div class="inputBox">
+                    <span class="fas fa-phone"></span>
+                    <input type="number" placeholder="numero">
+                </div>
+                <input type="submit" value="Contato agora" class="btn">
+            </form>
+
+        </div>
+    </section>
+<!-- contact section ends -->
+
+<!-- blogs sctions starts -->
+    <section class="blogs" id="blogs">
+
+        <h1 class="heading"> outros<span> posts</span></h1>
+
+        <div class="box-container">
+            <div class="box">
+                <div class="image">
+                    <img src="img/blog-1.jpeg" alt="">
+                </div>
+                <div class="content">
+                    <a href="#" class="title">Benefícios do café pós refeições</a>
+                    <span>by Lucca Macedo / 21st may, 2022</span>
+                    <p>Como o café pode te ajudar no pós refeições, entenda seus benefícios</p>
+                    <a href="#" class="btn"> leia mais</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="img/blog-2.jpeg" alt="">
+                </div>
+                <div class="content">
+                    <a href="#" class="title">Benefícios do café tinta de impressora</a>
+                    <span>by Matos Lucca / 21st may, 2022</span>
+                    <p>Tinta de impressora o meu, o seu , o nosso café favorito</p>
+                    <a href="#" class="btn"> leia mais</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="img/blog-3.jpeg" alt="">
+                </div>
+                <div class="content">
+                    <a href="#" class="title">Café puro ajuda na aula do jailson, entenda!</a>
+                    <span>by Luma / 21st may, 2022</span>
+                    <p>Aula do Jailson com café , não tem preço </p>
+                    <a href="#" class="btn"> leia mais</a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+<!-- blogs sctions ends -->
+
+<!-- footer section starts -->
+    <section class="footer">
+        
+        <div class="share">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-github"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+            <a href="#" class="fab fa-pinterest"></a>
+        </div>
+
+        <div class="links">
+            <a href="#home">home</a>
+            <a href="#about">sobre</a>
+            <a href="#menu">menu</a>
+            <a href="#products">produtos</a>
+            <a href="#review">Comentários</a>
+            <a href="#contact">contato</a>
+            <a href="#blogs">blog</a>
+        </div>
+
+        <div class="credit">Criado por <span>Lucca Macedo</span> | Todos os direitos reservados&copy;</div>
+    </section>
+<!-- footer section ends -->
+
+<!-- link JS -->
+<script src="script.js"></script>
+
+
+</body>
+</html>
