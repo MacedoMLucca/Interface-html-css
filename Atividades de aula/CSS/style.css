@@ -1,0 +1,21 @@
+#paragrafo1{
+    color: red;
+    font-size: small;
+} 
+h1{
+    color: blue;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* 
+background-color  => cor de fundo
+background-image  => coloca imagem // background-image: url("bgdesert.jpg");//
+background-repeat
+    =>
+    repeat-x => repetir no eixo X
+    repeat-x => repetir no eixo Y
+    no-repeat => não repete
+background-attachment
+background-position
+background (shorthand property) 
+*/
