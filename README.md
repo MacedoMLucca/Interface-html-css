@@ -19,7 +19,7 @@ Todos os projetos e exercícios realizados como atividade no [Instituto PROA](ht
    * Seguindo um tutorial passo-a-passo do Youtube para desenvolver com Html, Css e pela primeira vez JavaScript um site para falar de Café ("O amor de todos os programadores SZ").
 
 * [x] Projeto-Medico
-   * Com o uso de um tutorial passo-a-passo do Youtube utilizando Html,Css eJavaScript para desenvolver um site Medcare.  
+   * Com o uso de um tutorial passo-a-passo do Youtube utilizando Html,Css e JavaScript para desenvolver um site Medcare.  
 
 * [x] Projeto-Mercearia
    * Seguindo um tutorial passo-a-passo do Youtube para desenvolver uma mercearia online com as tecnologias Html, Css, JavaScript. 
