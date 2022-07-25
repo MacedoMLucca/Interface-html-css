@@ -7,7 +7,7 @@ Todos os projetos e exercícios realizados como atividade no [Instituto PROA](ht
 > Exercícios de desenvolvimento de interfaces
 
 * [x] Apresentção - Lucca 
-   * Exercicios pequenos apenas para dar o exemplo de como
+   * Um projeto elaborado para uma apresentação pessoal em aula. [Conheça mais de mim](https://luccamacedo.netlify.app/).
 
 * [x] Atividades de aula
    * Exercicios pequenos apenas para dar o exemplo de como é feito o uso das "Tags"
@@ -32,10 +32,7 @@ Todos os projetos e exercícios realizados como atividade no [Instituto PROA](ht
 #
 
  <div align="center">
-<!--      <a href="https://instagram.com/" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white"     target="_blank"></a> -->
+<a href="https://instagram.com/" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white"     target="_blank"></a> 
   <a href = "mailto:luccae.macedo@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
   <a href="https://www.linkedin.com/in/lucca-macedo-1796361a2" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
-     
-
- 
  </div>
