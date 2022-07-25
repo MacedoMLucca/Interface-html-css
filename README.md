@@ -1,4 +1,4 @@
-# Interface-html-css
+# Interface-Html-Css-JavaScript
 Todos os projetos e exercícios realizados como atividade no [Instituto PROA](https://www.proa.org.br/).
 
 * Repositório que contém códigos estudados na unidade curricular de Interfaces (códigos em HTML/CSS/JavaScript)
